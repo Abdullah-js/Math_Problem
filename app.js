@@ -10,5 +10,8 @@ rl.question(`NE LAN BU ${ num1 } + ${ num2 }?`,
 (userInput)=>{
     if(userInput.trim() == answer){
         rl.close();
+    }else{
+        console.log('hata yaptın mallll')
+        rl.close()SS
     }
 });
