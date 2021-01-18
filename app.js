@@ -12,6 +12,6 @@ rl.question(`NE LAN BU ${ num1 } + ${ num2 }?`,
         rl.close();
     }else{
         console.log('hata yaptın mallll')
-        rl.close()SS
+        rl.close();
     }
 });
